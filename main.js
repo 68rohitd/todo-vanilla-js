@@ -6,12 +6,12 @@ function onDelete(e) {
 
 function onMouseIn(e) {
   console.log("focussing");
-  document.getElementById(e.target.id).style.color = "grey";
+  document.getElementById(e.target.id).style.color = "black";
 }
 
 function onMouseOut(e) {
   console.log("focussing");
-  document.getElementById(e.target.id).style.color = "black";
+  document.getElementById(e.target.id).style.color = "grey";
 }
 
 function onAdd() {
