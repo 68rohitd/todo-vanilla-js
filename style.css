@@ -1,0 +1,60 @@
+h1 {
+    text-align: center;
+    font-size: 40px;
+    font-family: sans-serif;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+button, input {
+    padding: 7px 10px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    border-radius: 7px;
+}
+
+button {
+    margin-left: 3%;
+}
+
+input {
+    min-width: 230px;
+    width: 80%;
+}
+
+
+#taskContainer {
+    padding: 10px;
+    word-wrap: break-word;
+}
+
+p {
+    margin-left: auto;
+    margin-right: auto;
+    border: solid lightgrey 1px;
+    border-radius: 7px;
+    padding: 10px;
+    font-size: 20px;
+    min-width: 315px;
+    width: 70%;
+}
+
+@media screen and (max-width: 546px) {
+    input {
+        width: 100%;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+    button {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
